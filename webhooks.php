@@ -3,7 +3,7 @@
 // Keep it the same with the 'Secret' field on your Webhooks / Manage webhook page of your respostory.
 $secret = "Reading029";
 // 项目根目录, 如: "/var/www/fizzday"
-$path = "";
+$path = "/www/wwwroot/test.rd029.com";
 // Headers deliveried from GitHub
 $signature = $_SERVER['HTTP_X_HUB_SIGNATURE'];
 if ($signature) {
